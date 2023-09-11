@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "homework07"
+version = "0.1.0"
+description = ""
+authors = ["ivan-ishchenko991 <lvan.lshchenko19.01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.20"
+psycopg2 = "^2.9.7"
+alembic = "^1.12.0"
+faker = "^19.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
